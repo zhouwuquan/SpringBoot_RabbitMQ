@@ -1,0 +1,2 @@
+# SpringBoot_RabbitMQ
+使用SpringBoot搭建环境，学习使用RabbitMQ
