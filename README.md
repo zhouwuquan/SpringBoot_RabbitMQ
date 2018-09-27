@@ -8,3 +8,14 @@
 	RabbitMQ核心概念
 	RabbitMQ与Springboot2.X整个-急速入门
 	保障100%的消息可靠性投递方案落地实现
+
+1、首先安装erLang包，因为RabbitMq是基于erLang语言开发的,http://www.erlang.org/downloads
+2、安装RabbitMq,下载地址：http://www.rabbitmq.com/download.html
+3、Springboot整合RabbitMQ集成非常简单，不需要做任何的额外设置，只需要两步即可。
+	step1、引入依赖包
+		<!-- amqp是Rabbit -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
+      	</dependency> 
+	step2、对application.properties进行配置
