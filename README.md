@@ -19,3 +19,5 @@
 			<artifactId>spring-boot-starter-amqp</artifactId>
       	</dependency> 
 	step2、对application.properties进行配置
+
+见CSDN博客
